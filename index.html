@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+
+<html lang="en-US">
+    <head>
+        <title>@grumpatoodle</title>
+        <link rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+            integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+            crossorigin="anonymous">
+        </link>
+        <meta charset="UTF-8">
+        <meta name="author" content="Hebah Saleh">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">@grumpatoodle</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-item nav-link active" href="../vanilla/index.html">Home<span class="sr-only">(current)</span></a>
+                </div>
+            </div>
+        </nav>
+        <div id="cards" class="grid-container">
+            <div class="card-body">
+                <h5 class="card-title">Reverse Text</h5>
+                <p class="card-text">A vanilla JavaScript program that reverses a string.</p>
+                <a href="views/reverseText.html" class="card-link">Reverse String</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Calculator</h5>
+                <p class="card-text">A vanilla JavaScript calculator.</p>
+                <a href="views/calculator.html" class="card-link">Calculator</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Click Counter</h5>
+                <p class="card-text">A vanilla JavaScript click counter.</p>
+                <a href="views/clickCounter.html" class="card-link">Click Counter</a>
+            </div>
+            <div class="card-body">
+                <h5 class="card-title">Fibonacci</h5>
+                <p class="card-text">Using fibonacci to practice some logic.</p>
+                <a href="views/fibonacci.html" class="card-link">Fibonacci</a>
+            </div>
+        </div>
+    </body>
+</html>
+
+<style>
+
+#cards {
+    margin-left: 80px;
+    margin-right: 40px;
+}
+
+.card-body {
+    width: 300px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    padding: 10px;
+}
+
+.grid-item {
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+a:link {
+    color: blue;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:visited {
+    color: green;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+
+</style>

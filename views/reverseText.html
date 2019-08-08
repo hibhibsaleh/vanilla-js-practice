@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Reverse Text</title>
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo="
+        crossorigin="anonymous">
+    </script>
+    <link
+        rel="stylesheet"
+        href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+    </link>
+    <script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js">
+    </script>
+    <script
+        src="../scripts/reverseText.js"
+        alt="JavaScript">
+    </script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand">@grumpatoodle</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="../index.html">Home<span class="sr-only">(current)</span></a>
+            </div>
+        </div>
+    </nav>
+
+    <div id="mainMain">
+        <p>Now it's time to get funky</p>
+        <p>Take it back now y'all</p>
+        <p>Slide to the left, slide to the right</p>
+        <p id="reverseMe">Reverse! Reverse!</p>
+        <button id="show" class="btn btn-info" onclick="reverseHeader()">CHA CHA REAL SMOOTH</button>
+    </div>
+</body>
+
+<style>
+
+#mainMain {
+    margin-top: 40px;
+    text-align: center;
+}
+
+#reverseMe {
+    font-weight: bold;
+}
+
+</style>
